@@ -35,9 +35,9 @@ Additional information regarding the original variables for which these “average
 
 Instruction List/Script
 
-All dataset manipulations are performed sequentially in a single R script (w4a1.R)
+All dataset manipulations are performed sequentially in a single R script (run_analysis.R)
 
-The script can be run in any current version of R, provided the required libraries (data.table and dplyr) are installed and available.
+The script can be run in any current version of R, provided the required libraries (data.table, plyr and dplyr) are installed and available.
 
 Step 1: Open the script and edit the working directory to that of the top level of the dataset (the UCI HAR Dataset) directory.
 
