@@ -1,0 +1,46 @@
+Dataset Information
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
+
+Code book
+This document lists the variables in the tidy dataset including variable units and information and choices made in assembling the tidy dataset.
+
+Variables
+
+SubjectID
+An integer variable that is used to identify each study participant.
+
+Activity
+A categorical variable used to indicate which activity the associated measurements were taken for.
+
+Remaining variables.
+Each of the remaining variables is an average of the measurements taken for the subject and activity identified in the record.
+
+The measurement average variables are names with the following components:
+
+1.	f or t on the beginning of the variables to indicate if a Fast Fourier Transform (frequency domain) was applied, or if it was a time domain variable
+
+2.	Acceleration signals are split into their two sources, Body and Gravity are used in the variable names to denote the source of the acceleration measurement.
+
+3.	Jerk indicates a jerk measurement
+
+4.	Mag indicates a magnitude in a measurement.
+
+5.	The axis of the measurement is indicated on the tail of each variable name. This is denoted with XAxis, YAxis and ZAxis in each variable name.
+
+Please see the Excel codebook (codebook.xlsx) for a full description and listing of all variables.
+
+Additional information regarding the original variables for which these “average” variables are based is available as follows (from the source):
+
+Instruction List/Script
+
+All dataset manipulations are performed sequentially in a single R script (w4a1.R)
+
+The script can be run in any current version of R, provided the required libraries (data.table and dplyr) are installed and available.
+
+Step 1: Open the script and edit the working directory to that of the top level of the dataset (the UCI HAR Dataset) directory.
+
+Step 2: Execute the entire R script
+
+Step 3: A file titles ‘Final.txt’ will be output as the dataset described in the README and Codebook files.
