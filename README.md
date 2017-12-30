@@ -39,6 +39,8 @@ The following files are included:
 
 - 'Dataset.txt': aditional high level dataset information and instructions to reproduce the final dataset
 
+- 'run_analysis.R': an all inclusive R script that creates the desired dataset
+
 
 Notes: 
 ======
