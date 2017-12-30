@@ -41,6 +41,10 @@ The following files are included:
 
 - 'run_analysis.R': an all inclusive R script that creates the desired dataset
 
+Variables:
+=========================================
+See codebook.txt and Variables.xlsx for a full description of the available variables.
+
 Script documentation and instructions:
 =========================================
 
