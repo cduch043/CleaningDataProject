@@ -29,7 +29,7 @@ The measurement average variables are names with the following components:
 
 5.	The axis of the measurement is indicated on the tail of each variable name. This is denoted with XAxis, YAxis and ZAxis in each variable name.
 
-Please see the Excel codebook (codebook.xlsx) for a full description and listing of all variables.
+Please see the Excel codebook (variables.xlsx) for a full description and listing of all variables.
 
 Additional information regarding the original variables for which these “average” variables are based is available as follows (from the source):
 

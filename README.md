@@ -35,9 +35,9 @@ The following files are included:
 
 - 'codebook.txt': Shows information about the variables used.
 
-- 'codebook.xlsx': a description of each variable included in the dataset.
+- 'variables.xlsx': a description of each variable included in the dataset.
 
-- 'Dataset.docx': aditional high level dataset information and instructions to reproduce the final dataset
+- 'Dataset.txt': aditional high level dataset information and instructions to reproduce the final dataset
 
 
 Notes: 
