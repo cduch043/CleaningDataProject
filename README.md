@@ -1,4 +1,4 @@
-==================================================================
+
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 ==================================================================
@@ -9,7 +9,7 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 
-==================================================================
+
 Modified and updated by Chris Ducharme 12-30-2017
 ==================================================================
 
