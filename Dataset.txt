@@ -25,7 +25,7 @@ The measurement average variables are names with the following components:
 
 3.	Jerk indicates a jerk measurement
 
-4.	Mag indicates a magnitude in a measurement.
+4.	Mag indicates a magnitude measurement.
 
 5.	The axis of the measurement is indicated on the tail of each variable name. This is denoted with XAxis, YAxis and ZAxis in each variable name.
 

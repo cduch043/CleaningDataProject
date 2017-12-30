@@ -45,13 +45,13 @@ Script documentation and instructions:
 =========================================
 
 The script run_analysis.R can be run in any current version of R, provided the required libraries (data.table, plyr and dplyr) are installed and available.
-The scripts is a single file broken down into section based on the assignment requirements. Each section depends on the previous executing successfully and so the script must be run as a whole.
+The scripts is a single file broken down into sections based on the assignment requirements. Each section depends on the previous executing successfully and so the script must be run as a whole.
 
 Step 1: Open the script in R Studio and set the working directory to that of the top level of the dataset (the UCI HAR Dataset directory). There should be a 'test' and 'train' directories with the associated datasets present here.
 
 Step 2: Execute the entire R script run_analysis.R
 
-Step 3: A file titled ‘Final.txt’ will be output as the desired dataset.
+Step 3: A file titled ‘Final.txt’ will be output as the desired dataset into the working directory.
 
 Notes: 
 ======
